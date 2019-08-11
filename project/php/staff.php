@@ -197,6 +197,10 @@ _END;
      <p2><input type="submit"  name="submit"  value="Times Borrowed" class="button"> </input> </p2><br> 
    </form>
 
+   <form action = "statusrpt.php" method="post">
+     <p2><input type="submit"  name="submit"  value="Book Status" class="button"> </input> </p2><br> 
+   </form>
+
 
 <?php
   $conn->close();
